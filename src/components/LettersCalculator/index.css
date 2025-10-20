@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+}
+
+.LettersCalculator_title {
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+.Input_label {
+  font-family: Roboto;
+  color: #e4e7eb;
+}
+
+.Input_text {
+  font-family: Roboto;
+  color: #e4e7eb;
+  border: 1px solid #e4e7eb;
+  background-color: transparent;
+  outline: none;
+}
+
+.LettersCalculator_count_card {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LettersCalculator_count {
+  font-family: Roboto;
+  color: #219a6f;
+}
+
+@media screen and (max-width: 576px) {
+  .LettersCalculator_main {
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .LettersCalculator_img {
+    width: 300px;
+    order: 0;
+    align-self: center;
+  }
+
+  .LettersCalculator_card {
+    padding: 20px;
+    order: 1;
+  }
+
+  .LettersCalculator_title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .LettersCalculator_Input_card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Input_label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .Input_text {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+  }
+  .LettersCalculator_count_card {
+    margin-top: 30px;
+    padding: 16px;
+    border-radius: 10px;
+    width: 230px;
+    align-self: center;
+  }
+
+  .LettersCalculator_count {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .LettersCalculator_main {
+    height: 100vh;
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .LettersCalculator_img {
+    width: 650px;
+  }
+
+  .LettersCalculator_card {
+    padding: 20px;
+  }
+
+  .LettersCalculator_title {
+    font-size: 62px;
+  }
+
+  .LettersCalculator_Input_card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Input_label {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .Input_text {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+  }
+  .LettersCalculator_count_card {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+
+  .LettersCalculator_count {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
