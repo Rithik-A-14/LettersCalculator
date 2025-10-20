@@ -92,4 +92,4 @@ Use these files to complete the implementation:
 
 </details>
 
-PublicLink - ([rithiklatcal@ccbp.in](https://rithikletcal.ccbp.tech/))
+PublicLink - [rithiklatcal@ccbp.in](https://rithikletcal.ccbp.tech/)
